@@ -1,0 +1,349 @@
+{
+  "descricao": "Conjunto de avaliacao da recuperacao. Cada item tem a pergunta como um tecnico faria, o arquivo onde a resposta esta e um trecho de evidencia que precisa aparecer no chunk recuperado para contar como acerto. Itens com arquivo_esperado nulo testam a recusa: a resposta correta e admitir que a informacao nao esta na base. As evidencias sao conferidas contra o indice por 'python scripts/avaliar.py --conferir'.",
+  "perguntas": [
+    {
+      "id": "P01",
+      "pergunta": "De quanto em quanto tempo devo trocar o filtro hidraulico de retorno da escavadeira?",
+      "arquivo_esperado": "manual-escavadeira-mtx220.pdf",
+      "evidencias": [
+        "FH-P5501"
+      ]
+    },
+    {
+      "id": "P02",
+      "pergunta": "Qual o codigo do filtro de combustivel secundario da MTX-220?",
+      "arquivo_esperado": "manual-escavadeira-mtx220.pdf",
+      "evidencias": [
+        "FC-2202"
+      ]
+    },
+    {
+      "id": "P03",
+      "pergunta": "Qual a pressao do circuito piloto da escavadeira hidraulica?",
+      "arquivo_esperado": "manual-escavadeira-mtx220.pdf",
+      "evidencias": [
+        "3,9 MPa"
+      ]
+    },
+    {
+      "id": "P04",
+      "pergunta": "Que oleo hidraulico e recomendado para a MTX-220?",
+      "arquivo_esperado": "manual-escavadeira-mtx220.pdf",
+      "evidencias": [
+        "ISO VG 46"
+      ]
+    },
+    {
+      "id": "P05",
+      "pergunta": "Quando a sapata da esteira precisa ser substituida?",
+      "arquivo_esperado": "manual-escavadeira-mtx220.pdf",
+      "evidencias": [
+        "garra abaixo de 10 mm"
+      ]
+    },
+    {
+      "id": "P06",
+      "pergunta": "Qual o torque de aperto do parafuso do contrapeso?",
+      "arquivo_esperado": "manual-escavadeira-mtx220.pdf",
+      "evidencias": [
+        "1.100 N.m"
+      ]
+    },
+    {
+      "id": "P07",
+      "pergunta": "A maquina perdeu forca em todos os movimentos, o que verificar primeiro?",
+      "arquivo_esperado": "manual-escavadeira-mtx220.pdf",
+      "evidencias": [
+        "Pressao principal abaixo do nominal"
+      ]
+    },
+    {
+      "id": "P08",
+      "pergunta": "Qual a pressao correta dos pneus do caminhao fora de estrada?",
+      "arquivo_esperado": "manual-caminhao-cf450.pdf",
+      "evidencias": [
+        "650 kPa"
+      ]
+    },
+    {
+      "id": "P09",
+      "pergunta": "Qual a espessura minima do disco de freio do CF-450?",
+      "arquivo_esperado": "manual-caminhao-cf450.pdf",
+      "evidencias": [
+        "9,5 mm"
+      ]
+    },
+    {
+      "id": "P10",
+      "pergunta": "Posso usar fluido de freio automotivo no sistema de freios do caminhao?",
+      "arquivo_esperado": "manual-caminhao-cf450.pdf",
+      "evidencias": [
+        "glicol"
+      ]
+    },
+    {
+      "id": "P11",
+      "pergunta": "Qual a carga de nitrogenio da suspensao traseira com o caminhao vazio?",
+      "arquivo_esperado": "manual-caminhao-cf450.pdf",
+      "evidencias": [
+        "4,8 MPa"
+      ]
+    },
+    {
+      "id": "P12",
+      "pergunta": "Com que temperatura de oleo o britador pode ser partido?",
+      "arquivo_esperado": "manual-britador-bc900.pdf",
+      "evidencias": [
+        "16 graus C"
+      ]
+    },
+    {
+      "id": "P13",
+      "pergunta": "Como se mede a abertura de posicao fechada do britador conico?",
+      "arquivo_esperado": "manual-britador-bc900.pdf",
+      "evidencias": [
+        "chumbo"
+      ]
+    },
+    {
+      "id": "P14",
+      "pergunta": "Qual a vazao esperada do BC-900 com APF de 22 mm?",
+      "arquivo_esperado": "manual-britador-bc900.pdf",
+      "evidencias": [
+        "265 t/h"
+      ]
+    },
+    {
+      "id": "P15",
+      "pergunta": "Com quanto de desgaste devo trocar o manto e o concavo?",
+      "arquivo_esperado": "manual-britador-bc900.pdf",
+      "evidencias": [
+        "70 por cento da espessura"
+      ]
+    },
+    {
+      "id": "P16",
+      "pergunta": "Qual o limite de acao para silicio na analise de oleo?",
+      "arquivo_esperado": "pop-lubrificacao-analise-oleo.pdf",
+      "evidencias": [
+        "25 ppm"
+      ]
+    },
+    {
+      "id": "P17",
+      "pergunta": "Qual o procedimento correto para coletar uma amostra de oleo?",
+      "arquivo_esperado": "pop-lubrificacao-analise-oleo.pdf",
+      "evidencias": [
+        "primeiro meio litro"
+      ]
+    },
+    {
+      "id": "P18",
+      "pergunta": "De quanto em quanto tempo se coleta amostra do sistema hidraulico?",
+      "arquivo_esperado": "pop-lubrificacao-analise-oleo.pdf",
+      "evidencias": [
+        "contagem de particulas ISO 4406"
+      ]
+    },
+    {
+      "id": "P19",
+      "pergunta": "Qual o torque de aperto do parafuso da sapata da esteira?",
+      "arquivo_esperado": "manual-escavadeira-mtx220.pdf",
+      "evidencias": [
+        "930 N.m"
+      ]
+    },
+    {
+      "id": "P20",
+      "pergunta": "Qual a folga de valvulas do motor da MTX-220?",
+      "arquivo_esperado": "manual-escavadeira-mtx220.pdf",
+      "evidencias": [
+        "0,25 mm na admissao"
+      ]
+    },
+    {
+      "id": "P21",
+      "pergunta": "Qual a tensao correta da esteira da escavadeira?",
+      "arquivo_esperado": "manual-escavadeira-mtx220.pdf",
+      "evidencias": [
+        "320 e 340 mm"
+      ]
+    },
+    {
+      "id": "P22",
+      "pergunta": "Que oleo hidraulico usar na escavadeira operando abaixo de 5 graus?",
+      "arquivo_esperado": "manual-escavadeira-mtx220.pdf",
+      "evidencias": [
+        "ISO VG 32"
+      ]
+    },
+    {
+      "id": "P23",
+      "pergunta": "Com que diferenca de pressao acende o indicador de restricao do filtro hidraulico?",
+      "arquivo_esperado": "manual-escavadeira-mtx220.pdf",
+      "evidencias": [
+        "0,17 MPa"
+      ]
+    },
+    {
+      "id": "P24",
+      "pergunta": "Com quanto devo apertar as porcas de roda do caminhao fora de estrada?",
+      "arquivo_esperado": "manual-caminhao-cf450.pdf",
+      "evidencias": [
+        "900 N.m"
+      ]
+    },
+    {
+      "id": "P25",
+      "pergunta": "Qual a sequencia de sangria do circuito de freio do CF-450?",
+      "arquivo_esperado": "manual-caminhao-cf450.pdf",
+      "evidencias": [
+        "traseira direita"
+      ]
+    },
+    {
+      "id": "P26",
+      "pergunta": "Qual o codigo do filtro de oleo da transmissao do caminhao?",
+      "arquivo_esperado": "manual-caminhao-cf450.pdf",
+      "evidencias": [
+        "FT-8810"
+      ]
+    },
+    {
+      "id": "P27",
+      "pergunta": "Qual o indice TKPH minimo dos pneus do CF-450?",
+      "arquivo_esperado": "manual-caminhao-cf450.pdf",
+      "evidencias": [
+        "TKPH minimo de 490"
+      ]
+    },
+    {
+      "id": "P28",
+      "pergunta": "Posso usar ar comprimido para carregar a suspensao do caminhao?",
+      "arquivo_esperado": "manual-caminhao-cf450.pdf",
+      "evidencias": [
+        "ar comprimido introduz umidade"
+      ]
+    },
+    {
+      "id": "P29",
+      "pergunta": "De quanto em quanto tempo trocar as mangueiras do circuito de freio?",
+      "arquivo_esperado": "manual-caminhao-cf450.pdf",
+      "evidencias": [
+        "4.000 h"
+      ]
+    },
+    {
+      "id": "P30",
+      "pergunta": "Com que pressao de lubrificacao o britador desarma por intertravamento?",
+      "arquivo_esperado": "manual-britador-bc900.pdf",
+      "evidencias": [
+        "0,10 MPa"
+      ]
+    },
+    {
+      "id": "P31",
+      "pergunta": "Qual o torque do anel de fixacao do manto do britador?",
+      "arquivo_esperado": "manual-britador-bc900.pdf",
+      "evidencias": [
+        "2.400 N.m"
+      ]
+    },
+    {
+      "id": "P32",
+      "pergunta": "Qual a potencia tipica do BC-900 operando com APF de 28 mm?",
+      "arquivo_esperado": "manual-britador-bc900.pdf",
+      "evidencias": [
+        "175 a 195 kW"
+      ]
+    },
+    {
+      "id": "P33",
+      "pergunta": "Qual o codigo do filtro de lubrificacao do britador conico?",
+      "arquivo_esperado": "manual-britador-bc900.pdf",
+      "evidencias": [
+        "FL-6600"
+      ]
+    },
+    {
+      "id": "P34",
+      "pergunta": "Qual a pressao de nitrogenio nos acumuladores do alivio do britador?",
+      "arquivo_esperado": "manual-britador-bc900.pdf",
+      "evidencias": [
+        "5,5 MPa"
+      ]
+    },
+    {
+      "id": "P35",
+      "pergunta": "Quantas horas dura o manto do britador com minerio abrasivo?",
+      "arquivo_esperado": "manual-britador-bc900.pdf",
+      "evidencias": [
+        "900 e 1.200 horas"
+      ]
+    },
+    {
+      "id": "P36",
+      "pergunta": "Quem autoriza a extensao do intervalo de troca de oleo?",
+      "arquivo_esperado": "pop-lubrificacao-analise-oleo.pdf",
+      "evidencias": [
+        "Supervisor de manutencao"
+      ]
+    },
+    {
+      "id": "P37",
+      "pergunta": "Qual o limite de acao imediata para ferro na analise de oleo?",
+      "arquivo_esperado": "pop-lubrificacao-analise-oleo.pdf",
+      "evidencias": [
+        "acima de 100 ppm"
+      ]
+    },
+    {
+      "id": "P38",
+      "pergunta": "Em quanto tempo a amostra de oleo precisa chegar ao laboratorio?",
+      "arquivo_esperado": "pop-lubrificacao-analise-oleo.pdf",
+      "evidencias": [
+        "48 horas"
+      ]
+    },
+    {
+      "id": "P39",
+      "pergunta": "Por quanto tempo o laudo de analise de oleo deve ser guardado?",
+      "arquivo_esperado": "pop-lubrificacao-analise-oleo.pdf",
+      "evidencias": [
+        "cinco anos"
+      ]
+    },
+    {
+      "id": "P40",
+      "pergunta": "Silicio alto na analise de oleo indica o que?",
+      "arquivo_esperado": "pop-lubrificacao-analise-oleo.pdf",
+      "evidencias": [
+        "entrada de poeira"
+      ]
+    },
+    {
+      "id": "N01",
+      "pergunta": "Qual a capacidade de carga do helicoptero de resgate da mina?",
+      "arquivo_esperado": null,
+      "evidencias": []
+    },
+    {
+      "id": "N02",
+      "pergunta": "Qual o salario do operador de escavadeira?",
+      "arquivo_esperado": null,
+      "evidencias": []
+    },
+    {
+      "id": "N03",
+      "pergunta": "Qual o intervalo de troca do filtro de ar da perfuratriz PF-700?",
+      "arquivo_esperado": null,
+      "evidencias": []
+    },
+    {
+      "id": "N04",
+      "pergunta": "Qual a pressao de trabalho do ar condicionado da cabine da MTX-220?",
+      "arquivo_esperado": null,
+      "evidencias": []
+    }
+  ]
+}
