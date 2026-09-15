@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.ruff_cache/
+data/pdfs/*.pdf
+data/pdfs/manifesto.json
+relatorios/
+*.egg-info/
+.DS_Store
+data/indice.sqlite3
+data/*.sqlite3
